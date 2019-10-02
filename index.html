@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Samuel Sholkoff | Creative Dude</title>
+<meta name="description" content="Samuel Sholkoff is a visual and user experience designer. He'd love to make something pretty for you.">
+<link href="css/2016.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<script>
+var bgcolorlist=new Array("#BE3F3E", "#428BA7", "#E0DCD9")
+document.body.style.background=bgcolorlist[Math.floor(Math.random()*bgcolorlist.length)]
+</script>
+<div class="wrap">
+<div id="rockon"><img src="svg/rockon.svg" alt="rock on" width="100%"></div>
+<h1 id="header">FEEL SOMETHING ALREADY</h1>
+ <script>
+           var phraseOptions = ["Feel Something Already", "Oh Hoh!", "I am the Jackal", "Fuck!", "I just want free snacks", "God Forbid You Get Another Drone"];
+           var chosenOne="";
+           
+           function setHeader(){
+               chosenOne = phraseOptions[Math.floor(Math.random()*phraseOptions.length)];
+               document.getElementById("header").innerHTML=chosenOne;
+           }
+            window.onload = setHeader();
+    </script>
+<div id="message">
+	<div class="affect"><img src="img/affect_1.png" alt="affect 1" width="100%"></div>
+	<div class="affect"><img src="img/affect_2.png" alt="affect 2" width="100%"></div>
+	<div class="affect"><img src="img/affect_3.png" alt="affect 3" width="100%"></div>
+	<hm><strong>Affect</strong> is a series that depicts the experience of seeing life through a phone. 
+		Are we obscuring our connections with other humans? 
+		Does our drive to capture memories ultimately keep us an arm's length away from the moments that we collect?
+	The moments captured are now&nbsp;gone.
+		<p>They're only stories we can tell ourselves. Would these memories be more tangible had we not photographed them? Perhaps the mind inherently de-prioritizes the things we document, our brains comfortable with erasing those things we have sitting safely as 1's and 0's, hard&nbsp;data.</p></hm>
+	</div>
+	
+<div id="footerwrap">
+	<div id="stash"></div>
+<div id="footer">
+
+	<ul id="social">
+		<li><a href="https://www.behance.net/samuelsholkoff" target="_blank"><img src="svg/behance.svg" alt="judge me" width="100%"></a></li>
+	<li><a href="https://www.linkedin.com/in/samuelsholkoff" target="_blank"><img src="svg/linked.svg" alt="network me" width="100%"></a></li>
+	</ul>
+	
+	<div id="signature">Sam the Creative Dude</div>
+</div>
+		</div>
+</div>
+</body>
+</html>

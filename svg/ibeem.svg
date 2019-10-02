@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 200 200 200 200 0"></polygon>
+        <polygon id="path-3" points="0 200 200 200 200 0 0 0"></polygon>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="200" height="200" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="Group-2">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Stroke-1"></g>
+                <path d="M60,200 L160,0" id="Line" stroke="#3B3B3C" stroke-width="2" stroke-linecap="square" mask="url(#mask-2)"></path>
+                <path d="M120,200 L220,0" id="Line" stroke="#3B3B3C" stroke-width="2" stroke-linecap="square" mask="url(#mask-2)"></path>
+                <path d="M20,200 L120,0" id="Line" stroke="#3B3B3C" stroke-width="2" stroke-linecap="square" mask="url(#mask-2)"></path>
+                <path d="M80,200 L180,0" id="Line" stroke="#3B3B3C" stroke-width="2" stroke-linecap="square" mask="url(#mask-2)"></path>
+                <path d="M140,200 L240,0" id="Line" stroke="#3B3B3C" stroke-width="2" stroke-linecap="square" mask="url(#mask-2)"></path>
+                <path d="M40,200 L140,0" id="Line" stroke="#3B3B3C" stroke-width="2" stroke-linecap="square" mask="url(#mask-2)"></path>
+                <path d="M100,200 L200,0" id="Line" stroke="#3B3B3C" stroke-width="2" stroke-linecap="square" mask="url(#mask-2)"></path>
+                <path d="M160,200 L260,0" id="Line" stroke="#3B3B3C" stroke-width="2" stroke-linecap="square" mask="url(#mask-2)"></path>
+                <path d="M180,200 L280,0" id="Line" stroke="#3B3B3C" stroke-width="2" stroke-linecap="square" mask="url(#mask-2)"></path>
+            </g>
+            <use id="Stroke-1" stroke="#3B3B3C" mask="url(#mask-4)" stroke-width="12" xlink:href="#path-3"></use>
+            <path d="M99.0993,53.164 C99.0993,59.882 93.6533,65.328 86.9353,65.328 C80.2173,65.328 74.7703,59.882 74.7703,53.164 C74.7703,46.446 80.2173,41 86.9353,41 C93.6533,41 99.0993,46.446 99.0993,53.164 Z M75.1015,77.3035 C70.3745,87.1355 63.4135,121.7115 55.3315,129.7945 C47.2485,137.8765 34.1445,137.8765 26.0615,129.7945 C17.9795,121.7115 17.9795,108.6075 26.0615,100.5245 C37.0015,92.9025 65.9305,81.5265 73.6855,77.1225 C74.3495,77.0695 74.8325,77.1245 75.1015,77.3035 Z M124.9406,77.3035 C129.6676,87.1355 136.6286,121.7115 144.7106,129.7945 C152.7936,137.8765 165.8976,137.8765 173.9806,129.7945 C182.0636,121.7115 182.0636,108.6075 173.9806,100.5245 C163.0406,92.9025 134.1116,81.5265 126.3566,77.1225 C125.6926,77.0695 125.2096,77.1245 124.9406,77.3035 Z M126.5793,53.164 C126.5793,59.882 121.1333,65.328 114.4153,65.328 C107.6973,65.328 102.2503,59.882 102.2503,53.164 C102.2503,46.446 107.6973,41 114.4153,41 C121.1333,41 126.5793,46.446 126.5793,53.164 Z M100.2089,66.2985 C89.7439,66.2985 80.8029,72.3505 77.1909,80.8965 L123.2269,80.8965 C119.6149,72.3505 110.6739,66.2985 100.2089,66.2985 Z M100.2089,158.8994 C110.6739,158.8994 119.6149,152.8474 123.2269,144.3014 L77.1909,144.3014 C80.8029,152.8474 89.7439,158.8994 100.2089,158.8994 Z M73.9267,105.6027 L126.4917,105.6027 L126.4917,93.1237 L73.9267,93.1237 L73.9267,105.6027 Z M73.9267,130.5617 L126.4917,130.5617 L126.4917,118.0827 L73.9267,118.0827 L73.9267,130.5617 Z" id="Combined-Shape" fill="#3B3B3C"></path>
+        </g>
+    </g>
+</svg>

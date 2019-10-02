@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="91" cy="91" r="91"></circle>
+        <polygon id="path-3" points="0 200 200 200 200 0"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="Group-2" transform="translate(9.000000, 9.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Oval"></g>
+                <g id="Group" mask="url(#mask-2)">
+                    <g transform="translate(-9.000000, -9.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Stroke-1" stroke="none" fill="none"></g>
+                        <path d="M60,200 L160,0" id="Line" stroke="#3B3B3C" stroke-width="2" stroke-linecap="square" fill="none" mask="url(#mask-4)"></path>
+                        <path d="M120,200 L220,0" id="Line" stroke="#3B3B3C" stroke-width="2" stroke-linecap="square" fill="none" mask="url(#mask-4)"></path>
+                        <path d="M20,200 L120,0" id="Line" stroke="#3B3B3C" stroke-width="2" stroke-linecap="square" fill="none" mask="url(#mask-4)"></path>
+                        <path d="M80,200 L180,0" id="Line" stroke="#3B3B3C" stroke-width="2" stroke-linecap="square" fill="none" mask="url(#mask-4)"></path>
+                        <path d="M140,200 L240,0" id="Line" stroke="#3B3B3C" stroke-width="2" stroke-linecap="square" fill="none" mask="url(#mask-4)"></path>
+                        <path d="M40,200 L140,0" id="Line" stroke="#3B3B3C" stroke-width="2" stroke-linecap="square" fill="none" mask="url(#mask-4)"></path>
+                        <path d="M100,200 L200,0" id="Line" stroke="#3B3B3C" stroke-width="2" stroke-linecap="square" fill="none" mask="url(#mask-4)"></path>
+                        <path d="M160,200 L260,0" id="Line" stroke="#3B3B3C" stroke-width="2" stroke-linecap="square" fill="none" mask="url(#mask-4)"></path>
+                        <path d="M180,200 L280,0" id="Line" stroke="#3B3B3C" stroke-width="2" stroke-linecap="square" fill="none" mask="url(#mask-4)"></path>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-4" fill="#3B3B3C">
+                <path d="M100,9.09090909 C75.7065476,9.09090909 52.8656576,18.5432305 35.6871511,35.7103142 C0.225495078,71.1652071 0.225495078,128.834793 35.6871511,164.27231 C52.8656576,181.448082 75.7065476,190.909091 100,190.909091 C124.293452,190.909091 147.134342,181.448082 164.312849,164.27231 C199.774505,128.834793 199.774505,71.1652071 164.312849,35.7103142 C147.134342,18.5432305 124.293452,9.09090909 100,9.09090909 M100,200 C73.2780264,200 48.1541316,189.584787 29.2566314,170.699581 C-9.75221046,131.725401 -9.75221046,68.2745987 29.2566314,29.2829728 C48.1541316,10.3977669 73.2780264,9.9475983e-14 100,9.9475983e-14 C126.721974,9.9475983e-14 151.845868,10.3977669 170.743369,29.2829728 C209.75221,68.2745987 209.75221,131.725401 170.743369,170.699581 C151.845868,189.584787 126.721974,200 100,200" id="forward-Arrow-Circle" transform="translate(100.000000, 100.000000) scale(-1, 1) rotate(90.000000) translate(-100.000000, -100.000000) "></path>
+                <path d="M99.5,132.948753 C101.873231,132.948753 103.883183,133.972695 105.529915,136.020609 C107.176646,138.068523 108,140.568145 108,143.519551 C108,146.410724 107.176646,148.88023 105.529915,150.928144 C103.883183,152.976058 101.873231,154 99.5,154 C97.1752021,154 95.1773588,152.976058 93.5064103,150.928144 C91.8354617,148.88023 91,146.410724 91,143.519551 C91,140.568145 91.8354617,138.068523 93.5064103,136.020609 C95.1773588,133.972695 97.1752021,132.948753 99.5,132.948753 L99.5,132.948753 Z M107.273504,64.758757 L103.059829,122.920812 L95.9401709,122.920812 L91.7991453,64.833038 C91.6538454,63.149326 91.532764,61.5646796 91.4358974,60.0790514 C91.3390309,58.5934231 91.2905983,57.2316177 91.2905983,55.9935941 C91.2905983,52.3785654 91.9807623,49.6425744 93.3611111,47.785539 C94.7414599,45.9285037 96.7877357,45 99.5,45 C102.163831,45 104.197999,45.9285037 105.602564,47.785539 C107.00713,49.6425744 107.709402,52.3785654 107.709402,55.9935941 C107.709402,56.7859292 107.673077,57.9001337 107.600427,59.336241 C107.527777,60.7723483 107.418804,62.5798355 107.273504,64.758757 L107.273504,64.758757 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

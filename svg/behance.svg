@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 200 200 200 200 0"></polygon>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Stroke-1"></g>
+            <path d="M60,200 L160,0" id="Line" stroke="#3B3B3C" stroke-width="2" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M120,200 L220,0" id="Line" stroke="#3B3B3C" stroke-width="2" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M20,200 L120,0" id="Line" stroke="#3B3B3C" stroke-width="2" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M80,200 L180,0" id="Line" stroke="#3B3B3C" stroke-width="2" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M140,200 L240,0" id="Line" stroke="#3B3B3C" stroke-width="2" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M40,200 L140,0" id="Line" stroke="#3B3B3C" stroke-width="2" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M100,200 L200,0" id="Line" stroke="#3B3B3C" stroke-width="2" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M160,200 L260,0" id="Line" stroke="#3B3B3C" stroke-width="2" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M180,200 L280,0" id="Line" stroke="#3B3B3C" stroke-width="2" stroke-linecap="square" mask="url(#mask-2)"></path>
+        </g>
+        <path d="M3,197 L197,197 L197,3 L3,3 L3,197 Z" id="Stroke-1" stroke="#3B3B3C" stroke-width="6"></path>
+        <path d="M69.725,131.278 L41.942,131.278 L41.942,104.537 L71.067,104.537 C71.067,104.537 81.616,104.399 81.616,118.278 C81.616,129.851 73.9,131.162 69.725,131.278 L69.725,131.278 Z M41.942,66.784 L67.32,66.784 L71.067,66.784 C71.067,66.784 78.146,66.784 78.146,77.194 C78.146,87.604 73.982,89.113 69.263,89.113 L41.942,89.113 L41.942,66.784 Z M84.115,94.682 C104.24,94.682 102.853,119.528 102.853,119.528 C102.853,150.064 71.067,149.062 71.067,149.062 L41.942,149.062 L41.086,149.062 L19,149.062 L19,49 L41.086,49 L41.942,49 L71.067,49 C86.891,49 99.383,57.738 99.383,75.643 C99.383,93.548 84.115,94.682 84.115,94.682 Z M145.2448,74.4573 C185.7448,74.4573 180.0718,117.8923 180.0718,117.8923 L128.2238,117.8923 C128.2238,136.4813 145.8328,135.3033 145.8328,135.3033 C162.4628,135.3033 161.8758,124.5443 161.8758,124.5443 L179.4848,124.5443 C179.4848,153.1083 145.2458,151.1523 145.2458,151.1523 C104.1598,151.1523 106.8008,112.9023 106.8008,112.9023 C106.8008,112.9023 106.7658,74.4573 145.2448,74.4573 Z M160.8968,104.5373 L128.0278,104.5373 C128.0278,104.5373 130.1798,89.1133 145.6368,89.1133 C161.0938,89.1133 160.8968,104.5373 160.8968,104.5373 Z M123.719,64.7971 L123.719,54.7131 L165.001,54.7131 L165.001,64.7971 L123.719,64.7971 Z" id="Combined-Shape" fill="#404042"></path>
+    </g>
+</svg>

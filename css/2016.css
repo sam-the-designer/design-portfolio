@@ -1,0 +1,218 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	color:#414042;
+}
+
+.wrap{
+	width:100%;
+	max-width:1200px;
+	margin:0 auto;
+	box-sizing:border-box;
+	padding:0 20px;
+}
+
+#header{
+	margin-top:32px;
+	display:block;
+	text-align:center;
+	font-size:3em;
+	font-family: 'Roboto Slab', serif;
+}
+#message{
+	width:100%;
+	max-width: 1200px;
+	margin:32px auto;
+	text-align:center;
+}
+
+.affect {
+	width: 30%;
+	display: inline-block;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+
+#button{
+	margin: 40px 0;
+	padding: 10px 60px;
+	border:3px;
+	border-color:#414042;
+	border-style: solid;
+	display: block;
+	text-decoration:none;
+	color:#414042;
+	font-size:1.2em;
+	font-family: 'Roboto Slab', serif;
+	-webkit-transition: background-color .8s, color .8s; /* Safari */
+    transition: background-color .8s, color .8s;
+}
+
+#button:hover{
+	background-color: #414042;
+	color: #F1F1F1;
+}
+
+hm{
+	max-width: 900px;
+	line-height: 1.4em;
+	margin:50px auto 0px auto;
+	padding: 0 20px;
+	display:block;
+	font-size:1em;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:400;
+	text-align: left;
+	-moz-column-count: 2;
+      -webkit-column-count: 2;
+	column-count: 2;
+      -moz-column-gap: 1.5em;
+      -webkit-column-gap: 1.5em;
+      column-gap: 1.5em;
+}
+
+h2{
+	margin-top:32px;
+	display:block;
+	text-align:center;
+	font-size:1em;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:500;
+}
+
+
+#clear{
+	clear:both;
+	
+}
+
+#rockon{
+	display:block;
+	width:100%;
+	max-width:100px;
+	margin:32px auto 0px auto;
+}
+#footerwrap{
+	text-align: center;
+	width: 100%;
+	margin: 0px;
+	display: block;
+	position: relative;
+}
+#footer{
+	max-width:1200px;
+	margin:80px auto 30px auto;
+	padding-top: 30px;
+	display:block;
+	position: relative;
+}
+#signature{
+	font-size:.8em;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:500;
+	text-align: right;
+	display:inline-block;
+	position:absolute;
+	bottom: 0;
+	right:0;
+	padding:30px 30px;
+	margin: 0;
+}
+#social{
+	list-style:none;
+	width: 100%;
+	max-width: 300px;
+	display: inline-block;
+	position: absolute;
+	left:0;
+	bottom:0;
+	padding: 20px;
+	margin: 0px;
+	text-align: left;
+}
+#social li{
+	display:inline-block;
+	width:20%;
+	max-width: 100px;
+	padding:0px 10px;
+	margin: 0px;
+	box-sizing:border-box;
+}
+
+#stash{
+	height: 3px;
+	background-color: #414042;
+	display: block;
+	margin: 0px 20px;
+	border-radius: 100px;
+}
+
+@media only screen and (max-width: 400px) {
+	#footerwrap{
+		display: block;
+		position: relative;
+	}
+	
+	#footer{
+	width:100%;
+	margin:0 auto;
+	padding: 30px 0;
+	text-align:center;
+	position: relative;
+}
+
+#signature{
+	font-size:.8em;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:600;
+	display:block;
+	padding:20px 0;
+	margin: 0px auto;
+	text-align:center;
+	position: relative;
+}
+	#social{
+	list-style:none;
+	width: 100%;
+	max-width: 300px;
+	display: block;
+	padding: 0px;
+	margin: 0px auto;
+	text-align: center;
+	position: relative;
+	}
+	
+	#social li{
+	display:inline-block;
+	width:25%;
+	max-width: 100px;
+	padding:0px 15px;
+	margin: 0px;
+	box-sizing:border-box;
+}
+	#stash{
+	height: 3px;
+	background-color: #414042;
+	display: block;
+	margin: 80px 0px 20px 0px;
+	border-radius: 100px;
+}
+	hm{
+	line-height: 1.4em;
+	margin-top:20px;
+	display:block;
+	font-size:1em;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:400;
+	text-align: left;
+	-moz-column-count: 1;
+      -webkit-column-count: 1;
+	column-count: 1;
+}
+	.affect {
+	width: 100%;
+	display: block;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+}
