@@ -43,9 +43,8 @@ function setTeeth(){
 }
 
 function loadSnackArray(callback){
-  var snackFolder = "images/snacks";
   $.ajax({
-      url : snackFolder,
+      url : "/images/snacks/",
       success: function (data) {
         while(snackArray.length<8){
           $(data).find("a").each(function(){
@@ -62,9 +61,8 @@ function loadSnackArray(callback){
 }
 
 function loadResults(){
-  var resultFolder = "./images/results";
   $.ajax({
-      url : resultFolder,
+      url : "./images/results/",
       success: function (data) {
         $(data).find("a").each(function(){
           if($(this).attr("href").match(/\.(svg)$/) )
@@ -77,9 +75,8 @@ function loadResults(){
 }
 
 function loadLogoArray(callback){
-  var logoFolder = "/images/logos";
   $.ajax({
-      url : logoFolder,
+      url : "images/logos/",
       success: function (data) {
         $(data).find("a").each(function(){
           if($(this).attr("href").match(/\.(svg)$/) )
