@@ -43,7 +43,7 @@ function setTeeth(){
 }
 
 function loadSnackArray(callback){
-  var snackFolder = "images/snacks/";
+  var snackFolder = "./images/snacks/";
   $.ajax({
       url : snackFolder,
       success: function (data) {
@@ -62,7 +62,7 @@ function loadSnackArray(callback){
 }
 
 function loadResults(){
-  var resultFolder = "images/results/";
+  var resultFolder = "./images/results/";
   $.ajax({
       url : resultFolder,
       success: function (data) {
@@ -77,7 +77,7 @@ function loadResults(){
 }
 
 function loadLogoArray(callback){
-  var logoFolder = "images/logos/";
+  var logoFolder = "./images/logos/";
   $.ajax({
       url : logoFolder,
       success: function (data) {
@@ -102,7 +102,7 @@ function setSnacks(){
 
 function setLogo(){
   chosenLogo = logoArray[Math.floor(Math.random()*logoArray.length)];
-  $('.logo').attr("src", "images/logos/"+chosenLogo);
+  $('.logo').attr("src", "../images/logos/"+chosenLogo);
   console.log("logo loaded");
 }
 
