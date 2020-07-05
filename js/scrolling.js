@@ -1,14 +1,27 @@
 var maxMoveSpace = 40;
 var dotPlacement = 0;
 var colors = ["#E0DCD9", "#428BA7", "#BE3F3E"];
-var snackArray = [];
-var resultArray = [];
-var logoArray = [];
+// PRE LOAD THE SNACK ARRAY //
+var snackArray = ["beer.svg", "cheese.svg", "cigs.svg", "coffee.svg", "wing.svg", "yogurt.svg"];
+var resultArray = ["burp.svg", "chomp.svg", "like.svg", "mmmm.svg", "nibble.svg", "sploosh.svg",
+"yasss.svg", "yum.svg"];
+var logoArray = ["fist.svg", "fuck.svg", "hi.svg", "rock.svg", "shoot.svg"];
 var chosenColor="";
 var topSpacer=0;
 var aMoveDot = $('.moveDot');
 var aPageContainer = $('.page-container');
 var aFilledDot = $('#filled-dot');
+
+/* -- TEST LATER --
+const express = require('express');
+const app = express();
+const path = require('path');
+
+// Allow assets directory listings
+const serveIndex = require('serve-index'); 
+app.use('/images', serveIndex(path.join(__dirname, '/images')));
+*/
+
 
 /* --- only need the shuffle if later need the unspliced snack array --- 
 
@@ -28,6 +41,7 @@ function shuffle(array) {
 -- use shuffle instead of splicing to handle case where there aren't enough images in the folder
 -- load all LOADS and SETS before page load
 -- consider NPM Glob instead of ajax for getting images from file
+-- CALLBACKS for page load
 
 */
 
@@ -42,7 +56,10 @@ function setTeeth(){
   console.log("teeth loaded");
 }
 
+/* -- fix this -- MVP snack array pre-loaded 
+
 function loadSnackArray(callback){
+
   $.ajax({
       url : "/images/snacks/",
       success: function (data) {
@@ -60,9 +77,13 @@ function loadSnackArray(callback){
   });
 }
 
+*/
+
+/* -- fix this -- MVP results array pre-loaded 
+
 function loadResults(){
   $.ajax({
-      url : "./images/results/",
+      url : "/images/results/",
       success: function (data) {
         $(data).find("a").each(function(){
           if($(this).attr("href").match(/\.(svg)$/) )
@@ -74,9 +95,13 @@ function loadResults(){
   });  console.log("results loaded");
 }
 
+*/
+
+/* -- fix this -- MVP logo array pre-loaded 
+
 function loadLogoArray(callback){
   $.ajax({
-      url : "images/logos/",
+      url : "/images/logos/",
       success: function (data) {
         $(data).find("a").each(function(){
           if($(this).attr("href").match(/\.(svg)$/) )
@@ -90,23 +115,28 @@ function loadLogoArray(callback){
   });
 }
 
+*/
+
 function setSnacks(){
   $('.snack-item').each(function(){
-    var chosenSnack = snackArray.splice(Math.floor(Math.random()*snackArray.length), 1);
-    $(this).attr("src","images/snacks/"+chosenSnack[0]);
+    //var chosenSnack = snackArray.splice(Math.floor(Math.random()*snackArray.length), 1);
+    var chosenSnack = Math.floor(Math.random()*snackArray.length);
+    $(this).attr("src","images/snacks/"+snackArray[chosenSnack]);
   });
 }
 
 function setLogo(){
   chosenLogo = logoArray[Math.floor(Math.random()*logoArray.length)];
-  $('.logo').attr("src", "../images/logos/"+chosenLogo);
+  $('.logo').attr("src", "images/logos/"+chosenLogo);
   console.log("logo loaded");
 }
 
 function init(){
-  loadSnackArray(setSnacks);
-  loadResults();
-  loadLogoArray(setLogo);
+  // loadSnackArray(setSnacks);
+  setSnacks(); // not needed once loadSnackArray is fixed
+  // loadResults();
+  // loadLogoArray(setLogo);
+  setLogo(); // not needed once loadLogoArray is fixed
   setBkg();
   setTeeth();
 }
