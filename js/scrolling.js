@@ -53,7 +53,7 @@ function setBkg(){
 function setTeeth(){
   topSpacer = "-" + $('.topteeth').height();
   $('.topteeth').css("margin-top", topSpacer+"px");
-  console.log("teeth loaded");
+  console.log("teeth loaded. Top spacer is: " + topSpacer);
 }
 
 /* -- fix this -- MVP snack array pre-loaded 
@@ -138,7 +138,7 @@ function init(){
   // loadLogoArray(setLogo);
   setLogo(); // not needed once loadLogoArray is fixed
   setBkg();
-  setTeeth();
+  setTimeout(setTeeth, 500); // call once the teeth img is loaded on the page
 }
 
 $(document).on('click', 'a[href^="#"]', function(e){
