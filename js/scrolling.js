@@ -121,13 +121,13 @@ function setSnacks(){
   $('.snack-item').each(function(){
     //var chosenSnack = snackArray.splice(Math.floor(Math.random()*snackArray.length), 1);
     var chosenSnack = Math.floor(Math.random()*snackArray.length);
-    $(this).attr("src","../images/snacks/"+snackArray[chosenSnack]);
+    $(this).attr("src","../design-portfolio/images/snacks/"+snackArray[chosenSnack]);
   });
 }
 
 function setLogo(){
   chosenLogo = logoArray[Math.floor(Math.random()*logoArray.length)];
-  $('.logo').attr("src", "../images/logos/"+chosenLogo);
+  $('.logo').attr("src", "../design-portfolio/images/logos/"+chosenLogo);
   console.log("logo loaded");
 }
 
@@ -162,7 +162,7 @@ $(document).on('click', 'a[href^="#"]', function(e){
 
 function openTeeth(thisObj){
   var chosenResult=resultArray[Math.floor(Math.random()*resultArray.length)];
-  $('.snack-item', thisObj).attr("src","../images/results/"+chosenResult);
+  $('.snack-item', thisObj).attr("src","../design-portfolio/images/results/"+chosenResult);
   $('.snack-item', thisObj).addClass("result-item");
   $('.snack-item', thisObj).removeClass("snack-item");
   $('.topteeth', thisObj).css("transform", "translateY(0px)");
