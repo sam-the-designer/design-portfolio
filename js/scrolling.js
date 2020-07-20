@@ -45,6 +45,20 @@ function shuffle(array) {
 
 */
 
+var browserPrefix="";
+
+navigator.sayswho= (function(){
+  var N = navigator.appName, ua = navigator.userAgent, tem;
+  var M = ua.match(/(opera|chrome|safari|firefox|msie)\/?\s*(\.?\d+(\.\d+)*)/i);
+  if(M && (tem = ua.match(/version\/([\.\d]+)/i))!= null) M[2] = tem[1];
+  M = M? [M[1], M[2]]: [N, navigator.appVersion,'-?'];
+  M = M[0];
+  if(M == "Chrome") { browserPrefix = "-webkit-"; }
+  if(M == "Firefox") { browserPrefix = "-moz-"; }
+  if(M == "Safari") { browserPrefix = "-webkit-"; }
+  if(M == "MSIE") { browserPrefix = "-ms-"; }
+})();
+
 function setBkg(){
   chosenColor = colors[Math.floor(Math.random()*colors.length)];
   $('body').css("background", chosenColor);
@@ -118,10 +132,15 @@ function loadLogoArray(callback){
 */
 
 function setSnacks(){
+  var time=0;
   $('.snack-item').each(function(){
     //var chosenSnack = snackArray.splice(Math.floor(Math.random()*snackArray.length), 1);
     var chosenSnack = snackArray[Math.floor(Math.random()*snackArray.length)];
     $(this).attr("src","images/snacks/"+chosenSnack);
+  });
+  $('.snack').each(function(){
+  		$(this).attr("style",browserPrefix+"animation: fadeinUP 600ms ease "+time+"ms 1 normal forwards;");
+  		time += 150;
   });
 }
 
