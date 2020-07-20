@@ -112,6 +112,8 @@ a{
 	border: 4px solid #3B3B3C;
 	clip-path:inset(0px 0px 0px 0px);
 	-webkit-clip-path:inset(0px 0px 0px 0px);
+	position: relative;
+	opacity: 0;
 }
 
 .snack-item-container{
@@ -347,5 +349,28 @@ MEDIA QUERIES
 }
 
 
+/* animation keyframes */
+@keyframes fadeinUP {
+    0% { opacity: 0; top:50px;}
+    100%   { opacity: 1; top:0px;}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadeinUP {
+    0% { opacity: 0; top:50px;}
+    100%   { opacity: 1; top:0px;}
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeinUP {
+    0% { opacity: 0; top:50px;}
+    100%   { opacity: 1; top:0px;}
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadeinUP {
+    0% { opacity: 0; top:50px;}
+    100%   { opacity: 1; top:0px;}
+}
 
 
