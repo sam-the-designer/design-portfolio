@@ -132,15 +132,20 @@ function loadLogoArray(callback){
 */
 
 function setSnacks(){
-  var time=0;
+  var time=500;
+  var chartOrder=1;
   $('.snack-item').each(function(){
     //var chosenSnack = snackArray.splice(Math.floor(Math.random()*snackArray.length), 1);
     var chosenSnack = snackArray[Math.floor(Math.random()*snackArray.length)];
     $(this).attr("src","images/snacks/"+chosenSnack);
   });
   $('.snack').each(function(){
-  		$(this).attr("style",browserPrefix+"animation: fadeinUP 600ms ease "+time+"ms 1 normal forwards;");
-  		time += 150;
+  		$(this).attr("style",browserPrefix+"animation: popIn 600ms ease "+time+"ms 1 normal forwards;");
+  		if(chartOrder==4){
+  			time=450;
+  		}
+  		time += 100;
+  		chartOrder += 1;
   });
 }
 
