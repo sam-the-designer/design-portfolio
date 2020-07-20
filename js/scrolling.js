@@ -132,7 +132,7 @@ function loadLogoArray(callback){
 */
 
 function setSnacks(){
-  var time=500;
+  var time=100;
   var chartOrder=1;
   $('.snack-item').each(function(){
     //var chosenSnack = snackArray.splice(Math.floor(Math.random()*snackArray.length), 1);
@@ -142,7 +142,7 @@ function setSnacks(){
   $('.snack').each(function(){
   		$(this).attr("style",browserPrefix+"animation: popIn 600ms ease "+time+"ms 1 normal forwards;");
   		if(chartOrder==4){
-  			time=450;
+  			time=50;
   		}
   		time += 100;
   		chartOrder += 1;
@@ -231,6 +231,17 @@ and in the direction of the scroll.
 
 /* move the dot the amount that was scrolled in the correct direction */
   aMoveDot.css({'top': dotPlacement});
+
+/* if social cards aren't visible, add fade in animation */
+var socialVisibility = $('.socialCard').css("opacity");
+console.log(socialVisibility);
+if(socialVisibility=="0"){
+	var time=500;
+	$('.socialCard').each(function(){
+  		$(this).attr("style",browserPrefix+"animation: fadeinUP 1s ease "+time+"ms 1 normal forwards;");
+  		time += 100;
+  });
+}
 
 });
 window.onload = init();
