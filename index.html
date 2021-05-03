@@ -7,76 +7,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
-	<title>Shazam, I am Sam.</title>
+	<title>Sam, Creative Mofo</title>
 
 	<!-- my custom styles and fonts -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css?v4">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700,700i&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+	<script src="js/random-img.js"></script>
 </head>
 
-<body>
-
+<body id="body">
+    
+<div id="control-height"></div>
+<div class="main">
 <div class="bar header">
 	<div class="box-line open-right"></div>
-	<img class="logo">
+	<img class="logo" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 200 150'%2F%3E">
 	<div class="box-line open-left"></div>
 </div>
 
-<div class="page-container">
-
+<div id="fix-mobile" class="page-container">
+<div class="wrap">
 	<div class="page" id="pageOne">
 		<div class="page-grid">
 			<div class ="snack-wrapper">
 			
 				<div class="message">
-					<h1>I just want free snacks.</h1>
+					<h1>I just want free snacks</h1>
 				</div>
 
-				<div class="snack-grid">
-					<div class="snack">
-						<img class="topteeth" src="svg/topteeth.svg">
-						<div class="snack-item-container"><img class="snack-item" src=""></div>
-						<img class="bottomteeth" src="svg/bottomteeth.svg">
+				<div class="wrapper">
+
+					<div class="snack-grid">
+						<div class="snack">
+							<img class="topteeth" src="svg/topteeth.svg">
+							<div class="snack-item-container"><img class="snack-item" src=""></div>
+							<img class="bottomteeth" src="svg/bottomteeth.svg">
+						</div>
+						<div class="snack">
+							<img class="topteeth" src="svg/topteeth.svg">
+							<div class="snack-item-container"><img class="snack-item" src=""></div>
+							<img class="bottomteeth" src="svg/bottomteeth.svg">
+						</div>
+						<div class="snack">
+							<img class="topteeth" src="svg/topteeth.svg">
+							<div class="snack-item-container"><img class="snack-item" src=""></div>
+							<img class="bottomteeth" src="svg/bottomteeth.svg">
+						</div>
+						<div class="snack landscape-hide">
+							<img class="topteeth" src="svg/topteeth.svg">
+							<div class="snack-item-container"><img class="snack-item" src=""></div>
+							<img class="bottomteeth" src="svg/bottomteeth.svg">
+						</div>	
+						<div class="snack hide-md">
+							<img class="topteeth" src="svg/topteeth.svg">
+							<div class="snack-item-container"><img class="snack-item" src=""></div>
+							<img class="bottomteeth" src="svg/bottomteeth.svg">
+						</div>
+						<div class="snack hide-md">
+							<img class="topteeth" src="svg/topteeth.svg">
+							<div class="snack-item-container"><img class="snack-item" src=""></div>
+							<img class="bottomteeth" src="svg/bottomteeth.svg">
+						</div>
+						<div class="truncate snack hide-md">
+							<img class="topteeth" src="svg/topteeth.svg">
+							<div class="snack-item-container"><img class="snack-item" src=""></div>
+							<img class="bottomteeth" src="svg/bottomteeth.svg">
+						</div>
+						<div class="truncate snack hide-md">
+							<img class="topteeth" src="svg/topteeth.svg">
+							<div class="snack-item-container"><img class="snack-item" src=""></div>
+							<img class="bottomteeth" src="svg/bottomteeth.svg">
+						</div>
 					</div>
-					<div class="snack">
-						<img class="topteeth" src="svg/topteeth.svg">
-						<div class="snack-item-container"><img class="snack-item" src=""></div>
-						<img class="bottomteeth" src="svg/bottomteeth.svg">
-					</div>
-					<div class="snack">
-						<img class="topteeth" src="svg/topteeth.svg">
-						<div class="snack-item-container"><img class="snack-item" src=""></div>
-						<img class="bottomteeth" src="svg/bottomteeth.svg">
-					</div>
-					<div class="snack">
-						<img class="topteeth" src="svg/topteeth.svg">
-						<div class="snack-item-container"><img class="snack-item" src=""></div>
-						<img class="bottomteeth" src="svg/bottomteeth.svg">
-					</div>	
-					<div class="snack">
-						<img class="topteeth" src="svg/topteeth.svg">
-						<div class="snack-item-container"><img class="snack-item" src=""></div>
-						<img class="bottomteeth" src="svg/bottomteeth.svg">
-					</div>
-					<div class="snack">
-						<img class="topteeth" src="svg/topteeth.svg">
-						<div class="snack-item-container"><img class="snack-item" src=""></div>
-						<img class="bottomteeth" src="svg/bottomteeth.svg">
-					</div>
-					<div class="truncate snack">
-						<img class="topteeth" src="svg/topteeth.svg">
-						<div class="snack-item-container"><img class="snack-item" src=""></div>
-						<img class="bottomteeth" src="svg/bottomteeth.svg">
-					</div>
-					<div class="truncate snack">
-						<img class="topteeth" src="svg/topteeth.svg">
-						<div class="snack-item-container"><img class="snack-item" src=""></div>
-						<img class="bottomteeth" src="svg/bottomteeth.svg">
+					<div class="message-ty">
+						<h2 class="title-sticker">I think you've <br> had enough</h2>
+						<h3 class="subtitle">Please Sam, can I have <br> <a onclick="setSnacks('block')"><strong>some more?</strong></a></h3>
 					</div>
 				</div>
-				
 			</div>
 			
 			
@@ -95,12 +105,12 @@
 							<h4>A collection of case-study design projects.</h4>
 						</div>
 					</a>
-					<a href="https://www.xup-austin.com" target="_blank">
+					<a href="https://www.mytruchef.com" target="_blank">
 						<div class="socialCard">
-							<img class="small" src="svg/xup.svg">
-							<h3>XUP</h3>
+							<img class="small" src="svg/lightbulb.svg">
+							<h3>Side Hustle</h3>
 							<div class="big"><img src="svg/clip.svg"></div>
-							<h4>My startup. When it takes off I won’t need this portfolio.</h4>
+							<h4>I’m always working on something new and sexy.</h4>
 						</div>
 					</a>
 					<a href="https://www.linkedin.com/in/samuelsholkoff/" target="_blank">
@@ -115,7 +125,7 @@
 			</div>
 		</div>
 	</div>
-
+</div>
 </div>
 
 <div class="bar footer">
@@ -123,7 +133,7 @@
 		<div><h2>Sam the creative dude</h2></div>
 		<div class="box-line open-left"></div>
 </div>
-
+</div>
 <!-- clipPath doesn't work in safari
 
 <svg viewBox="0 0 100 100">
@@ -136,15 +146,66 @@
 end clipPath -->
 
 <div class="dots">
-	<a href="#pageOne"><div class="dot"></div></a>
+	<a href="#pageOne" class="first-screen"><div class="dot"></div></a>
 	<div class="dot moveDot" id="filled-dot"></div>
-	<a href="#pageTwo"><div class="dot"></div></a>
+	<a href="#pageTwo" class="second-screen"><div class="dot"></div></a>
 </div>
 
 
 </body>
+<script>
+    
+	let body = document.getElementById('body');
+	if ("ontouchstart" in document.documentElement) {
+		body.classList.add('touch-device');
 
+	} else {
+		body.classList.add('hover-device');
+	}
+	if (jQuery('body').hasClass("touch-device")) {
+//Loading height on touch-device
+
+function calcFullHeight() {
+	
+		let elementHeight = $("#control-height").innerHeight();
+		let actualHeight = $(window).innerHeight();
+		let resHeight = Math.abs(actualHeight - elementHeight);
+		jQuery('#fix-mobile').css("height", `calc(99.99% - ${resHeight}px`);
+		jQuery('.main').css("height", `${actualHeight + resHeight}px`);
+		//$("#control-height").text(elementHeight + "--" + resHeight + "ac" + actualHeight);
+	
+}
+
+(function($) {
+	
+	calcFullHeight();
+
+	jQuery(window).on('load resize orientationchange', function() {
+		// 300ms timeout for getting the correct height after orientation change
+		
+		setTimeout(function() {
+			calcFullHeight();
+		}, 500);
+		
+	});
+
+})(jQuery);
+
+} else {
+jQuery('.main').css("height", "100vh");
+jQuery('#fix-mobile').height('');
+
+
+}
+
+</script>
 <script src="js/scrolling.js"></script>
+<style>
+	.my-new-list{
+		position: absolute;
+		top: 0;
+	}
+</style>
 
 
 </html>

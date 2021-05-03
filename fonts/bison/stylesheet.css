@@ -1,0 +1,129 @@
+
+@font-face {
+    font-family: 'bisonbold';
+    src: url('bison-bold-webfont.woff2') format('woff2'),
+         url('bison-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bisonbold_itallic';
+    src: url('bison-bolditallic-webfont.woff2') format('woff2'),
+         url('bison-bolditallic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bisondemibold';
+    src: url('bison-demibold-webfont.woff2') format('woff2'),
+         url('bison-demibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bisondemibold_itallic';
+    src: url('bison-demibolditallic-webfont.woff2') format('woff2'),
+         url('bison-demibolditallic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/*
+@font-face {
+    font-family: 'bisonlight';
+    src: url('bison-light-webfont.woff2') format('woff2'),
+         url('bison-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bisonlight_italic';
+    src: url('bison-lightitalic-webfont.woff2') format('woff2'),
+         url('bison-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*/
+
+
+@font-face {
+    font-family: 'bisonregular';
+    src: url('bison-regular-webfont.woff2') format('woff2'),
+         url('bison-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bisonregular_italic';
+    src: url('bison-regularitalic-webfont.woff2') format('woff2'),
+         url('bison-regularitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+/*@font-face {
+    font-family: 'bisonthickoutline';
+    src: url('bison-thickoutline-webfont.woff2') format('woff2'),
+         url('bison-thickoutline-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bisonthickoutline_itallic';
+    src: url('bison-thickoutlineitallic-webfont.woff2') format('woff2'),
+         url('bison-thickoutlineitallic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bisonthinoutline';
+    src: url('bison-thinoutline-webfont.woff2') format('woff2'),
+         url('bison-thinoutline-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}*/
