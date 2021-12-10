@@ -153,6 +153,11 @@ function loadLogoArray(callback){
 }
 
 */
+var images = {
+  logos: logoArray,
+  snacks: snackArray,
+  results: resultArray,
+};
 
 function setSnacks(messVisible) {
   var time = 100;
@@ -173,7 +178,8 @@ function setSnacks(messVisible) {
       //$(this).attr("src","images/snacks/"+chosenSnack);
 
       var itemImageSnacks = images.snacks[Math.floor(Math.random() * images.snacks.length)];
-      $(this).attr("src", itemImageSnacks);
+      $(this).attr("src", `/images/snacks/${itemImageSnacks}`);
+      $(this).attr("alt", itemImageSnacks);
     });
   }, 100);
 
@@ -197,10 +203,9 @@ function setLogo() {
   //var chosenLogo = logoArray[Math.floor(Math.random()*logoArray.length)];
   //$('.logo').attr("src", "images/logos/"+chosenLogo);
   setTimeout(function () {
-    var itemImage;
-    itemImage = images.logos[Math.floor(Math.random() * images.logos.length)];
-
-    $(".logo").attr("src", itemImage);
+    var itemImage = images.logos[Math.floor(Math.random() * images.logos.length)];
+    $(".logo").attr("src", `/images/logos/${itemImage}`);
+    $(".logo").attr("alt", itemImage);
   }, 100);
 }
 
@@ -236,9 +241,9 @@ function openTeeth(thisObj) {
   /*var chosenResult=resultArray[Math.floor(Math.random()*resultArray.length)];
   $('.snack-item', thisObj).attr("src","images/results/"+chosenResult);*/
 
-  var itemImageResults;
-  itemImageResults = images.results[Math.floor(Math.random() * images.results.length)];
-  $(".snack-item", thisObj).attr("src", itemImageResults);
+  var itemImageResults = images.results[Math.floor(Math.random() * images.results.length)];
+  $(".snack-item", thisObj).attr("src", `/images/results/${itemImageResults}`);
+  $(".snack-item", thisObj).attr("alt", itemImageResults);
   $(".snack-item", thisObj).addClass("result-item");
   $(".snack-item", thisObj).parent().addClass("no-pointer");
   $(".snack-item", thisObj).removeClass("snack-item");
