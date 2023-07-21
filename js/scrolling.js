@@ -2,7 +2,7 @@ var maxMoveSpace = 40;
 var dotPlacement = 0;
 var colors = ["#E0DCD9", "#428BA7", "#BE3F3E"];
 // PRE LOAD THE SNACK ARRAY //
-var snackArray = ["beer.svg", "cheese.svg", "cigs.svg", "coffee.svg", "wing.svg", "yogurt.svg"];
+var snackArray = ["beer.svg", "cheese.svg", "cigs.svg", "coffee.svg", "wing.svg", "yogurt.svg", "la-croix.svg", "sardine.svg"];
 var resultArray = [
   "burp.svg",
   "chomp.svg",
