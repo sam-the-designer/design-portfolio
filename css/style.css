@@ -205,8 +205,8 @@ a {
 }
 .social-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 60px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 24px;
 }
 .socialCard {
   border-radius: 8px;
