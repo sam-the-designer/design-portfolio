@@ -112,7 +112,7 @@ a {
 .snack-grid {
   /*grid-row:4/5;*/
   display: grid;
-  grid-template-columns: repeat(4, 180px);
+  grid-template-columns: repeat(3, 180px);
   grid-template-rows: repeat(2, 180px);
   /*grid-gap:20px;*/
   grid-column-gap: 78px;
